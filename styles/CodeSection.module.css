@@ -1,0 +1,47 @@
+.wrap{
+    overflow: hidden;
+    margin-top: 40px;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.topNav .ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.li{
+    cursor:pointer;
+   padding: 10px 8%;
+    background-color: #eee;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.li.active{
+    background-color: #000;
+    color: #fff;
+   border-radius: 5px;
+}
+
+.codeEditor{
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: small;
+    line-height: 25px;
+}
+
+.code{
+    padding: 20px;
+    display: none;
+}
+
+.code.active{
+    display: block;
+}

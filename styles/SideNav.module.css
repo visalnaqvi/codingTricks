@@ -1,0 +1,52 @@
+.li{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 50px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.a{
+    background-color: red;
+}
+
+.ul{
+    position: absolute;
+    z-index: 1;
+}
+
+.wrap{
+    position: fixed;
+    padding-top: 30px;
+}
+
+.navigation{
+    position: fixed;
+    width: 18%;
+}
+
+.icon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.text{
+    font-weight: 600;
+    color: #0d1216;;
+}
+
+.bg{
+    transition: 0.5s ease-in-out;
+    height: 50px;
+    width: 100%;
+    background-color: #EEEEEE;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+
+

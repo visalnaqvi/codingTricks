@@ -1,0 +1,19 @@
+.body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Tagbody{
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    min-width: 70px;
+    border-radius: 5px;
+    font-size: small;
+    color: #8d8d8d;
+    text-align: center;
+}

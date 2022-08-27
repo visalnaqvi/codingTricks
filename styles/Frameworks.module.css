@@ -1,0 +1,13 @@
+.wraper{
+    height: 80vh;
+    width: 100%;
+    font-size: 3em;
+    background-image: url(../assests/under_construction.svg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.wraper p{
+    margin: 40px;
+}

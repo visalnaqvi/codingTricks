@@ -1,0 +1,20 @@
+.h1{
+    margin: 12px 0;
+    font-size: 1.75em;
+}
+
+.h2{
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #0d1216;
+    font-weight: 400;
+}
+
+.cardh2{
+    font-size: 1em;
+}
+
+.h2Bold{
+    margin: 20px 0;
+    font-size: 2em;
+}

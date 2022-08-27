@@ -1,0 +1,153 @@
+.navgationTop{
+    text-align: center;
+    border-bottom: 1px solid #f8f8f8;
+    box-shadow: 0 4px 10px 5px #00000020;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+.logoContainer{
+    display: flex;
+    width: 300px;
+    padding: 8px;
+    height: auto;
+}
+
+.iconHolder{
+    display: flex;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.li{
+    margin: 0 15px;
+}
+
+.hireButton{
+    padding: 10px 35px;
+    margin: 0 10px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 100px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.hireButton:hover{
+    background-color: transparent;
+    color: #000;
+}
+
+.toggle{
+    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle::before{
+    position: absolute;
+    content: '';
+    border-radius: 3px;
+    transform: translateY(-5px);
+    width: 26px;
+    height: 3px;
+    background-color: #000;
+    transition: 1s;
+}
+
+.toggle::after{
+    position: absolute;
+    content: '';
+    border-radius: 3px;
+    transform: translateY(5px);
+    width: 26px;
+    height: 3px;
+    background-color: #000;
+    transition: 1s;
+}
+
+.mobileWrap{
+    transition: 0.5s ease;
+    width: 80%;
+    position: fixed;
+    background-color: #fff;
+    border-right: 1px solid#dbdbdb;
+    box-shadow: 3px 0 10px 5px #00000030;
+    z-index: 11;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-right: 5px ;
+    padding-top: 20px;
+}
+
+.mobileWrap .toggle::after{
+    transform: translateY(0px) rotate(225deg);
+}
+
+.mobileWrap .toggle::before{
+    transform: translateY(0px) rotate(-405deg);
+}
+.mobileLi{
+    font-weight: 600;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.mobileLi.active{
+    background-color: #eee;
+}
+
+.mobileTitle{
+    font-size: x-large;
+    margin: 30px 0;
+}
+
+.mobileToggle{
+    bottom: 20px;
+    position: absolute;
+    right: 20px;
+    box-shadow: 5px 5px 10px 5px #00000030;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.mobileIconBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:610px){
+    .iconHolder{
+        display: none;
+    }
+
+    .toggle{
+        display: flex;
+    }
+}
