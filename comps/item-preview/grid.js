@@ -1,6 +1,6 @@
 import Link from "next/link";
 import style from "../../styles/itemPreview.module.css"
-import text from '../../styles/text.module.css'
+import text from '../../styles/Text.module.css'
 import { useEffect } from "react";
 const ItemPreviewGrid = () => {
     // useEffect(() => {
