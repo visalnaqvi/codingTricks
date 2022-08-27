@@ -95,7 +95,7 @@ align-items: center;
     margin: 0;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: -100%;
     padding-right: 5px ;
     padding-top: 20px;
 }

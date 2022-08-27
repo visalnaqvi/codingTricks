@@ -4,9 +4,16 @@ import text from "../../../../styles/Text.module.css"
 import Tags from "../../../../comps/tags"
 import CodeSectionAction from "../../../../comps/codeSection/codeSectionActionButton";
 import Link from "next/link";
+import Head from "next/head";
 const Preview = () => {
     return ( 
         <div className={style.wrap}>
+                <Head>
+        <title>HTML/CSS/JS Action Button - HTML/ CSS/ JavaScript Elements Code Snippet</title>
+
+        <meta name="description" content="Coding Tricks - HTML/ CSS/ JavaScript Elements Code Snippet" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
             <div className={style.path}>
                 <Link href="/">Home</Link> &#x0003E; HTML/CSS/JS Action Bar
             </div>
