@@ -3,7 +3,7 @@
 }
 .preview{
     width: 100%;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 2px 2px 20px 0px #00000050;
@@ -16,3 +16,4 @@
 .path a{
     text-decoration: underline;
 }
+

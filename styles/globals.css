@@ -55,12 +55,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 300px;
   background: var(--clr);
 }
 
 .navigation-action{
   width: 400px;
+  min-width: 400px;
   height: 70px;
   background: #fff;
   position: relative;
@@ -108,7 +109,7 @@ body{
 }
 
 .navigation-action ul li.active a .icon{
-  transform: translateY(-32px);
+  transform: translateY(-35px);
 }
 
 .navigation-action ul li a .text{
@@ -130,7 +131,7 @@ body{
 
 .indicator{
   position: absolute;
-  top: -50%;
+  top: -55%;
  left: 18px;
   width: 60px;
   height: 60px;
@@ -196,11 +197,8 @@ body{
 }
 
 @media only screen and (max-width:450px){
-  .navigation-action{
-    display: none;
-  }
-  .msg{
-    display: block;
+  .wrap-pre{
+    overflow: scroll;
   }
 }
 
@@ -208,13 +206,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   width: 100%;
   background-color: #FF5757;
 }
 
 .wrap-action-button video{
   width: 800px;
+  height: 300px;
 }
 
 
