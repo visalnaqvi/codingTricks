@@ -51,7 +51,7 @@ const NavBar = () => {
                   })
                   e.target.classList.add(style.active);
                   document.querySelector(".mobileWrap").style.left = "-100%";
-               }}  className={`${style.mobileLi} mobileLi`}><Link className={style.Link} href="https://www.instagram.com/coding_.tricks/">
+               }}  className={`${style.mobileLi} mobileLi`}><Link className={style.Link} href="https://www.youtube.com/channel/UC0YucUCPSuvY3Q2thQNI1ZQ">
                   <div className={style.mobileIconBox}>
                     
                   <ion-icon style={{fontSize:"25px",marginRight:"10px"}} name="logo-youtube"></ion-icon>
@@ -75,7 +75,7 @@ const NavBar = () => {
            <div className={style.iconHolder}>
             <ul className={style.ul}>
                <li className={style.li}><Link className={style.Link} href="https://www.instagram.com/coding_.tricks/"><ion-icon style={{fontSize:"30px"}} name="logo-instagram"></ion-icon></Link></li>
-               <li className={style.li}><Link href="#"><ion-icon style={{fontSize:"30px"}} name="logo-youtube"></ion-icon></Link></li>
+               <li className={style.li}><Link href="https://www.youtube.com/channel/UC0YucUCPSuvY3Q2thQNI1ZQ"><ion-icon style={{fontSize:"30px"}} name="logo-youtube"></ion-icon></Link></li>
             </ul>
             <button className={style.hireButton}>Hire Us</button>
            </div>
