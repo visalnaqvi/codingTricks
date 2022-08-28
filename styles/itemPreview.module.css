@@ -11,7 +11,9 @@
     background-color: grey;
 }
 
-.video video{
+
+
+.video .img{
     width: auto;
     height: 100%;
 }

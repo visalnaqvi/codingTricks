@@ -1,6 +1,10 @@
 import Link from "next/link";
 import style from "../../styles/itemPreview.module.css"
 import text from '../../styles/Text.module.css'
+import Image from "next/image"
+import video1 from "../../public/video1.gif"
+import video2 from "../../public/video2.gif"
+import video3 from "../../public/video3.gif"
 import { useEffect } from "react";
 const ItemPreviewGrid = () => {
     // useEffect(() => {
@@ -10,7 +14,7 @@ const ItemPreviewGrid = () => {
         <div className={style.mainWrapper}>
             <Link href="/products/navigation-bars/side-navigation-floating">
                 <div className={style.card}>
-                    <div className={style.video}> <video autoPlay muted loop src={"/video1.mp4"}></video></div>
+                    <div className={style.video}><Image width={320} height={180} src={video1} alt="balle"></Image></div>
                     <div className={style.content}>
                         <h2 className={text.cardh2}>HTM, CSS, JavaScript Navigation Bar</h2>
                         <button className={style.button}>Get Code</button>
@@ -19,7 +23,7 @@ const ItemPreviewGrid = () => {
             </Link>
             <Link href="/products/action-buttons/action-button">
             <div className={style.card}>
-                <div className={style.video}><video muted loop autoPlay src={"/video2.mp4"}></video></div>
+                <div className={style.video}><Image width={320} height={180} src={video2} alt="balle"></Image></div>
                 <div className={style.content}>
         
                     <h2 className={text.cardh2}>HTM, CSS, JavaScript Action Bar</h2>
@@ -29,7 +33,7 @@ const ItemPreviewGrid = () => {
             </Link>
             <Link href="/products/action-buttons/action-button-red-2">
             <div className={style.card}>
-                <div className={style.video}><video loop muted autoPlay src={"/video3.mp4"}></video></div>
+                <div className={style.video}><Image width={320} height={180} src={video3} alt="balle"></Image></div>
                 <div className={style.content}>
                     <h2 className={text.cardh2}>HTM, CSS, JavaScript Action Button</h2>
                     <button className={style.button}>Get Code</button>
