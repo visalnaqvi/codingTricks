@@ -1,0 +1,102 @@
+.wrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #444444;
+}
+
+.card {
+  margin: 100px 20px;
+  height: 60vh;
+  width: 280px;
+  perspective: 1000px;
+}
+
+.ineer_card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+  cursor: pointer;
+}
+
+.ineer_card.is_flipped {
+  transform: rotateY(180deg);
+}
+
+.card_faces {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card_face_front {
+    display: flex;
+  background-color: #5551aa;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+}
+
+.card_face_front h2 {
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: small;
+  text-shadow: 0px 8px 2px rgba(0, 0, 0, 0.2);
+  letter-spacing: 8px;
+}
+
+.card_face_back {
+  background-color: white;
+  transform: rotateY(180deg);
+}
+
+.card_content {
+  width: 100%;
+  height: 100%;
+}
+
+.card_header {
+  padding: 30px 30px 40px;
+  position: relative;
+}
+.card_header h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: x-small;
+  letter-spacing: 10px;
+  line-height: 23px;
+}
+
+.card_header:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0px 0px 50% 0px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.card_body {
+  padding: 30px;
+  font-family: "Josefin Sans", sans-serif;
+font-size: 13px;
+line-height: 20px;
+}

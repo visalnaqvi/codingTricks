@@ -1,5 +1,5 @@
 import style from "../../../../styles/preview.module.css"
-import Nav from "./assets/side-navigation.js";
+import PreviewComp from "./assets/preview";
 import text from "../../../../styles/Text.module.css"
 import Tags from "../../../../comps/tags"
 import CodeSection from "../../../../comps/codeSection/codeSection";
@@ -21,7 +21,7 @@ const Preview = () => {
         
          <h2 className={text.h2Bold}>Live Preview Click to Use</h2>
          <div className={style.preview}>
-            <Nav></Nav>
+            <PreviewComp></PreviewComp>
          </div>
          <br></br>
          <br></br>

@@ -6,7 +6,7 @@ import four from "./4.jpg";
 import five from "./5.jpg";
 import React, { useState  } from 'react';
 import Image from 'next/image';
-const Nav = () => {
+const PreviewComp = () => {
     const [isActive, setActive] = useState(true);
     const toggleClass = () => {
         setActive(!isActive);
@@ -63,4 +63,4 @@ const Nav = () => {
     );
 }
  
-export default Nav;
+export default PreviewComp;

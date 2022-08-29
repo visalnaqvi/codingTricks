@@ -1,5 +1,5 @@
 
-const ActionButton = () => {
+const PreviewComp = () => {
     
     return ( 
        <div className="wrap-action-button">
@@ -7,4 +7,4 @@ const ActionButton = () => {
 </div>);
 }
  
-export default ActionButton;
+export default PreviewComp;

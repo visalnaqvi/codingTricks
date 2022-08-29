@@ -12,7 +12,7 @@ const ItemPreviewGrid = () => {
                 <div className={style.card}>
                     <div className={style.video}><video muted loop autoPlay src="/video1.webm"></video></div>
                     <div className={style.content}>
-                        <h2 className={text.cardh2}>HTM, CSS, JavaScript Navigation Bar</h2>
+                        <h2 className={text.cardh2}>HTML, CSS, JavaScript Navigation Bar</h2>
                         <button className={style.button}>Get Code</button>
                     </div>
                 </div>
@@ -22,7 +22,17 @@ const ItemPreviewGrid = () => {
                 <div className={style.video}><video muted loop autoPlay src="/video2.webm"></video></div>
                 <div className={style.content}>
         
-                    <h2 className={text.cardh2}>HTM, CSS, JavaScript Action Bar</h2>
+                    <h2 className={text.cardh2}>HTML, CSS, JavaScript Action Bar</h2>
+                    <button className={style.button}>Get Code</button>
+                </div>
+            </div>
+            </Link>
+            <Link href="/products/cards/3d-cards-1">
+            <div className={style.card}>
+                <div className={style.video}><video muted loop autoPlay src="/video4.webm"></video></div>
+                <div className={style.content}>
+        
+                    <h2 className={text.cardh2}>3D Cards using HTML, CSS, JavaScript </h2>
                     <button className={style.button}>Get Code</button>
                 </div>
             </div>
@@ -31,7 +41,7 @@ const ItemPreviewGrid = () => {
             <div className={style.card}>
                 <div className={style.video}><video muted loop autoPlay src="/video3.webm"></video></div>
                 <div className={style.content}>
-                    <h2 className={text.cardh2}>HTM, CSS, JavaScript Action Button</h2>
+                    <h2 className={text.cardh2}>HTML, CSS, JavaScript Action Button</h2>
                     <button className={style.button}>Get Code</button>
                 </div>
             </div>

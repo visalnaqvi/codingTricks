@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import Script from 'next/script'
-const ActionButton = () => {
+const PreviewComp = () => {
     useEffect(()=>{
         const list = document.querySelectorAll('.list');
    
@@ -62,4 +62,4 @@ const ActionButton = () => {
      );
 }
  
-export default ActionButton;
+export default PreviewComp;

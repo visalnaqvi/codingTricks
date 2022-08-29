@@ -1,5 +1,5 @@
 import style from "../../../../styles/preview.module.css"
-import ActionButton from "./assests/preview";
+import PreviewComp from "./assests/preview";
 import text from "../../../../styles/Text.module.css"
 import Tags from "../../../../comps/tags"
 import CodeSectionAction from "../../../../comps/codeSection/codeSectionActionButton";
@@ -21,7 +21,7 @@ const Preview = () => {
          <h2 className={text.h2Bold}>Live Preview is not Available for this element</h2> 
         
          <div className={style.preview}>
-            <ActionButton></ActionButton>
+            <PreviewComp></PreviewComp>
          </div>
          <br></br><br></br>
          <h1 className={text.h1}>HTML/CSS/JS Action Bar</h1>
