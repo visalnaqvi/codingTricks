@@ -1,11 +1,3 @@
-import style from "./style.module.css"
-import icon1 from "./assests/home-outline.svg"
-import icon2 from "./assests/person-outline.svg"
-import icon3 from "./assests/chatbubble-ellipses-outline.svg"
-import icon4 from "./assests/camera-outline.svg"
-import icon5 from "./assests/settings-outline.svg";
-import Image from "next/image"
-import Head from "next/head"
 import { useEffect } from "react"
 import Script from 'next/script'
 const ActionButton = () => {

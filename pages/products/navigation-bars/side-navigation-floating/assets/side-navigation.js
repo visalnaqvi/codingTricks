@@ -1,9 +1,9 @@
 import style from "./style.module.css";
-import one from "./assets/1.jpg";
-import two from "./assets/2.jpg";
-import three from "./assets/3.jpg";
-import four from "./assets/4.jpg";
-import five from "./assets/5.jpg";
+import one from "./1.jpg";
+import two from "./2.jpg";
+import three from "./3.jpg";
+import four from "./4.jpg";
+import five from "./5.jpg";
 import React, { useState  } from 'react';
 import Image from 'next/image';
 const Nav = () => {
