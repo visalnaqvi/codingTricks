@@ -10,15 +10,15 @@ export default function Home() {
       <Head>
         <title>Coding Tricks - HTML/ CSS/ JavaScript Elements Code Snippet</title>
 
-        <meta name="description" content="Coding Tricks - HTML/ CSS/ JavaScript Elements Code Snippet" />
+        <meta name="description" content="Get code snippets for various HTML/ CSS/ JavaScript elements. Courses to learn web development. Courses in HTML/ CSS/ Java/ Javascript" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
      
       <main className={style.mainWrapper}>
-          <Tags texts = {['HTML','CSS','JavaScript','Navigation']}></Tags>
+          {/* <Tags texts = {['HTML','CSS','JavaScript','Navigation']}></Tags>
           <h1 className={text.h1}>HTML, CSS, JavaScript Elements</h1>
-          <h2 className={text.h2}>Browse high quality HTML/CSS elemnt templates for your next project</h2>
+          <h2 className={text.h2}>Browse high quality HTML/CSS elemnt templates for your next project</h2> */}
          <ItemPreviewGrid></ItemPreviewGrid>
       </main>
      
