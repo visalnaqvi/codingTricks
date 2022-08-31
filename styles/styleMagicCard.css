@@ -95,3 +95,10 @@
   }
 }
 
+
+@media only screen and (max-width:500px){
+  .magic-card{
+    width: 60vw;
+    height: 350px;
+  }
+}
