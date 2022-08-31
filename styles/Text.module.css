@@ -16,5 +16,25 @@
 
 .h2Bold{
     margin: 20px 0;
-    font-size: 2em;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+
+.h1ProductPage{
+    font-size: 3em;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.h2ProductPage{
+    margin-top: 10px;
+}
+
+.pArticleText{
+    font-size: 1.1em;
+    line-height: 40px;
+    margin: 15px 0;
+    font-weight: 500;
+    color: #2e2e2e;
 }

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>Coding Tricks - HTML/ CSS/ JavaScript Elements Code Snippet</title>
+        <title>Coding Tricks - HTML/ CSS/ JavaScript Code Snippet</title>
 
         <meta name="description" content="Get code snippets for various HTML/ CSS/ JavaScript elements. Courses to learn web development. Courses in HTML/ CSS/ Java/ Javascript" />
         <link rel="icon" href="/favicon.ico" />

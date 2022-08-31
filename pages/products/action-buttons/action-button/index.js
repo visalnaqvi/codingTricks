@@ -12,7 +12,7 @@ const Preview = () => {
               <Head>
         <title>HTML/CSS/JS Action Bar - HTML/ CSS/ JavaScript Elements Code Snippet</title>
 
-        <meta name="description" content="Coding Tricks - HTML/ CSS/ JavaScript Elements Code Snippet" />
+        <meta name="description" content="Coding Tricks - HTML/ CSS/ JavaScript Elements Code Snippet for Action Bar using HTML CSS JavaScript" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
             <div className={style.path}>
@@ -24,9 +24,11 @@ const Preview = () => {
             <PreviewComp></PreviewComp>
          </div>
          <br></br><br></br>
-         <h1 className={text.h1}>HTML/CSS/JS Action Bar</h1>
-         <h2 className={text.h2}>Browse this design in React.js Code</h2>
+         <h1 className={text.h1ProductPage}>HTML/CSS/JS Action Bar</h1>
+         <h2 className={text.h2ProductPage}>Browse this design in React.js Code</h2>
          <CodeSectionAction></CodeSectionAction>
+        
+
         </div>
      );
 }

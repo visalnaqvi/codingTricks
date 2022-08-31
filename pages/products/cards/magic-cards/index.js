@@ -11,7 +11,7 @@ const Preview = () => {
                 <Head>
         <title>HTML/CSS/JS Magic Card - HTML/ CSS/ JavaScript Elements Code Snippet</title>
 
-        <meta name="description" content="Coding Tricks - HTML/ CSS/ JavaScript Elements Code Snippet" />
+        <meta name="description" content="Coding Tricks - HTML/ CSS/ JavaScript Elements Code Snippet for Magic Card in HTML CSS JavaScript" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
           <div className={style.path}>
@@ -25,8 +25,8 @@ const Preview = () => {
          </div>
          <br></br>
          <br></br>
-         <h1 className={text.h1}>HTML/CSS/JS Magic Card Bar</h1>
-         <h2 className={text.h2}>Browse this design in React.js Code</h2>
+         <h1 className={text.h1ProductPage}>HTML/CSS/JS Magic Card Bar</h1>
+         <h2 className={text.h2ProductPage}>Browse this design in React.js Code</h2>
          <CodeSection></CodeSection>
          
         </div>

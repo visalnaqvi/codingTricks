@@ -8,11 +8,11 @@ const ItemPreviewGrid = () => {
     //   });
     return ( 
         <div className={style.mainWrapper}>
-            <Link href="/products/navigation-bars/side-navigation-floating">
+            <Link href="/products/navigation-bars/side-user-panel-floating">
                 <div className={style.card}>
                     <div className={style.video}><video muted loop autoPlay src="/video1.webm"></video></div>
                     <div className={style.content}>
-                        <h2 className={text.cardh2}>HTML, CSS, JavaScript Navigation Bar</h2>
+                        <h2 className={text.cardh2}>HTML, CSS, JavaScript User Panel</h2>
                         <button className={style.button}>Get Code</button>
                     </div>
                 </div>
