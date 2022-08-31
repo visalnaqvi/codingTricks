@@ -6,6 +6,13 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+
 a{
   text-decoration: none;
   color:inherit;

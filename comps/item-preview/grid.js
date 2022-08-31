@@ -37,6 +37,16 @@ const ItemPreviewGrid = () => {
                 </div>
             </div>
             </Link>
+            <Link href="/products/cards/magic-cards/">
+            <div className={style.card}>
+                <div className={style.video}><video muted loop autoPlay src="/video5.webm"></video></div>
+                <div className={style.content}>
+        
+                    <h2 className={text.cardh2}>Magic Card using HTML, CSS, JavaScript </h2>
+                    <button className={style.button}>Get Code</button>
+                </div>
+            </div>
+            </Link>
             <Link href="/products/action-buttons/action-button-red-2">
             <div className={style.card}>
                 <div className={style.video}><video muted loop autoPlay src="/video3.webm"></video></div>

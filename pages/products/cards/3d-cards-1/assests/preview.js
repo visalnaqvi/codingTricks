@@ -1,7 +1,6 @@
 import style from "./style.module.css";
-import { useState , useRef , useEffect } from "react";
+import { useState  } from "react";
 const PreviewComp = () => {
-    const cardRef = useRef();
     let [toggle,setToggle] = useState(false) 
    
    

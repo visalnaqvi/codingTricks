@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/styleMagicCard.css'
 import SideNav from '../comps/sideNav'
 import NavBar from '../comps/nav'
 import Footer from '../comps/footer'
