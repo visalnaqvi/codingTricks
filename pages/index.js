@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import NavBar from '../comps/nav'
-import Tags from '../comps/tags'
+import Script from 'next/script'
 import style from "../styles/Home.module.css"
-import text from "../styles/Text.module.css"
-import ItemPreviewGrid from '../comps/item-preview/grid'
+import ItemPreviewGrid from '../comps/item-preview/main-grid'
 export default function Home() {
   return (
     <div >
@@ -13,6 +11,7 @@ export default function Home() {
         <meta name="description" content="Get code snippets for various HTML/ CSS/ JavaScript elements. Courses to learn web development. Courses in HTML/ CSS/ Java/ Javascript" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Script src='../comps/google-analytics-tag'></Script>
       
      
       <main className={style.mainWrapper}>
