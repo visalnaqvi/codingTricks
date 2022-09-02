@@ -17,3 +17,15 @@
     text-decoration: underline;
 }
 
+.iframe{
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.iframe iframe{
+    margin: auto;
+    box-shadow: 4px 4px 40px 0 #000000;
+    border: none;
+    border-radius: 10px;
+}

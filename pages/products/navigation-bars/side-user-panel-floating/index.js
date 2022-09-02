@@ -30,6 +30,9 @@ const Preview = () => {
          <CodeSection></CodeSection>
          <article>
          <h1 className={text.h1ProductPage}>Need a user panel?</h1>
+         <div className={style.iframe}>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/UrPIW0YBqp0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+         </div>
         <p className={text.pArticleText}>Well do you have lots of users communicating on your app and want to add a nice easy to use <strong>side user panel</strong> to your application.</p>
         <p className={text.pArticleText}>We got you covered. Here we have a modern <strong>side user panel</strong> developed using <strong>HTML CSS and JavaScript</strong> which will help you organise and manage your users.</p>
         <p className={text.pArticleText}>We have used pure <strong>HTML CSS and JavaScript</strong> to develop this design. You dont need to put any extra effort to make the code working. Just copy all the <strong>HTML CSS JavaScript code</strong> and paste it in your code.</p>
