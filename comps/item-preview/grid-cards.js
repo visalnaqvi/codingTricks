@@ -12,7 +12,7 @@ const GridCard = () => {
                
 
     return ( 
-       <div>
+       <div className={style.mainWrapper}>
         {cards.map((card) =>
            
             <Link key={card.link} href={card.link}>
