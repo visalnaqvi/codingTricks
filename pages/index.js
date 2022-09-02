@@ -3,6 +3,9 @@ import Script from 'next/script'
 import style from "../styles/Home.module.css"
 import ItemPreviewGrid from '../comps/item-preview/main-grid'
 export default function Home() {
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   return (
     <div >
       <Head>
@@ -11,8 +14,16 @@ export default function Home() {
         <meta name="description" content="Get code snippets for various HTML/ CSS/ JavaScript elements. Courses to learn web development. Courses in HTML/ CSS/ Java/ Javascript" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Script src='../comps/google-analytics-tag'></Script>
-      
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-NH84NRVWGV"
+      ></Script>
+
+      {(window.dataLayer = window.dataLayer || [])}
+
+      {gtag()}
+      {gtag("js", new Date())}
+      {gtag("config", "G-NH84NRVWGV")}      
      
       <main className={style.mainWrapper}>
           {/* <Tags texts = {['HTML','CSS','JavaScript','Navigation']}></Tags>

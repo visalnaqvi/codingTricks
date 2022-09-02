@@ -5,11 +5,8 @@ import Tags from "../../../../comps/tags";
 import CodeSectionAction from "../../../../comps/codeSection/codeSectionAction";
 import Link from "next/link";
 import Head from "next/head";
-import Script from "next/script";
 const Preview = () => {
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+ 
   return (
     <div className={style.wrap}>
       <Head>
@@ -23,16 +20,7 @@ const Preview = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-NH84NRVWGV"
-      ></Script>
-
-      {(window.dataLayer = window.dataLayer || [])}
-
-      {gtag()}
-      {gtag("js", new Date())}
-      {gtag("config", "G-NH84NRVWGV")}
+     
       <div className={style.path}>
         <Link href="/">Home</Link> &#x0003E; HTML/CSS/JS Action Bar
       </div>
