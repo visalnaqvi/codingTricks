@@ -1,4 +1,4 @@
-import style from "../../../styles/CodeSection.module.css";
+import style from "../styles/CodeSection.module.css";
 import "react";
 import dynamic from "next/dynamic";
 
@@ -6,11 +6,11 @@ const CodeSection = ({ htmlCode, cssCode, jsCode }) => {
   const AceEditor = dynamic(
     async () => {
       const ace = await import("react-ace");
-      import("ace-builds/src-noconflict/mode-html");
-      import("ace-builds/src-noconflict/mode-javascript");
-      import("ace-builds/src-noconflict/mode-css");
+      await import("ace-builds/src-noconflict/mode-html");
+      await import("ace-builds/src-noconflict/mode-javascript");
+      await import("ace-builds/src-noconflict/mode-css");
+      await import("ace-builds/src-noconflict/ext-language_tools");
       import("ace-builds/src-noconflict/theme-dreamweaver");
-      import("ace-builds/src-noconflict/ext-language_tools");
       return ace;
     },
     {

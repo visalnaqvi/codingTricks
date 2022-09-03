@@ -2,11 +2,11 @@ import style from "../../../../styles/preview.module.css";
 import PreviewComp from "./assests/preview";
 import text from "../../../../styles/Text.module.css";
 import Tags from "../../../../comps/tags";
-import CodeSectionAction from "../../../../comps/codeSection/actionBars/actionBar3";
+import CodeSection from "../../../../comps/codesection";
 import Link from "next/link";
 import Head from "next/head";
 const Preview = () => {
- const htmlCode = ` <div class="outer-wrap">
+ const htmlCode = `<div class="outer-wrap">
  <div class="inner-wrap">
  <menu class="menu">
      <button class="menu__item active" style="--bgColorItem: #ff8c00;" >
@@ -296,7 +296,7 @@ window.addEventListener("resize", () => {
       <h2 className={text.h2ProductPage}>
         Browse this design in React.js Code
       </h2>
-      <CodeSectionAction htmlCode={htmlCode} cssCode={cssCode} jsCode={jsCode}></CodeSectionAction>
+      <CodeSection htmlCode={htmlCode} cssCode={cssCode} jsCode={jsCode}></CodeSection>
     </div>
   );
 };
