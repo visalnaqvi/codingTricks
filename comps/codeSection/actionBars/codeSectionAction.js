@@ -1,4 +1,4 @@
-import style from "../../styles/CodeSection.module.css";
+import style from "../../../styles/CodeSection.module.css";
 import "react";
 const CodeSection = () => {
   

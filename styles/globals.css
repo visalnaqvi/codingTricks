@@ -12,6 +12,11 @@
   inherits: false;
 }
 
+:root{
+  --bgColorMenu : #1d1d27;
+  --duration: .7s;    
+}
+
 
 a{
   text-decoration: none;

@@ -2,7 +2,7 @@ import style from "../../../../styles/preview.module.css"
 import PreviewComp from "./assests/preview";
 import text from "../../../../styles/Text.module.css"
 import Tags from "../../../../comps/tags"
-import CodeSectionAction from "../../../../comps/codeSection/codeSectionActionButton";
+import CodeSectionAction from "../../../../comps/codeSection/actionBars/codeSectionActionButton";
 import Link from "next/link";
 import Head from "next/head";
 const Preview = () => {
