@@ -269,6 +269,17 @@ window.addEventListener("resize", () => {
         Browse this design in React.js Code
       </h2>
       <CodeSection htmlCode={htmlCode} cssCode={cssCode} jsCode={jsCode}></CodeSection>
+      <article>
+         <h1 className={text.h1ProductPage}>Need an Animated Action Bar?</h1>
+         <div className={style.iframe}>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/rCKaDYhd4o8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+         </div>
+        <p className={text.pArticleText}>Tired of old boring <strong>HTML CSS navigation bars</strong> to we build an amazing animated <strong>HTML CSS JAVA Script Action Bar</strong></p>
+        <p className={text.pArticleText}>Here we have a modern <strong>HTML CSS JAVA Script Action Bar</strong> developed using <strong>HTML CSS and JavaScript</strong> which will help you organise and manage your navigaation.</p>
+        <p className={text.pArticleText}>We have used pure <strong>HTML CSS and JavaScript</strong> to develop this design. You dont need to put any extra effort to make the code working. Just copy all the <strong>HTML CSS JavaScript code</strong> and paste it in your code.</p>
+        <p className={text.pArticleText}>Navigation is made easy action bars plus the provide an attractive look to the design and also provide micro interaction to the user. <strong>Action Bars</strong> are also they heavily to provide quick access to users they prove to be very handy when navigating between many featurs.</p>
+        <p className={text.pArticleText}>Follow us on Instagram and subscribe us on youtube for more such <strong>HTML CSS JavaScript code snippets.</strong></p>
+         </article>
     </div>
   );
 };
