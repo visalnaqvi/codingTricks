@@ -5,9 +5,22 @@ import "../styles/slidingText.css"
 import SideNav from '../comps/sideNav'
 import NavBar from '../comps/nav'
 import Footer from '../comps/footer'
+import Script from 'next/script'
 function MyApp({ Component, pageProps }) {
   return (
     <>
+    <Script strategy="lazyOnload" src={'https://www.googletagmanager.com/gtag/js?id=G-NH84NRVWGV'} />
+
+<Script strategy="lazyOnload" id="analytics">
+    {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+        page_path: window.location.pathname,
+        });
+    `}
+</Script>
     <NavBar></NavBar>
     <div className='masterWrap'>
     <div className='sideBarWrap'>
