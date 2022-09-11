@@ -5,6 +5,7 @@ import text from '../../styles/Text.module.css'
 const GridCard = () => {
     const cards = [
         {link:"/products/action-buttons/action-bar-3",video:"/video6.webm",h2:"HTML, CSS, JS Animated Action Bar",tag:["html","css","js","action"]},
+        {link:"/products/texts/slidingText",video:"/video7.webm",h2:"HTML, CSS, JS Animated Sliding Text",tag:["html","css","js","sliding","text"]},
         {link:"/products/cards/magic-cards/",video:"/video5.webm",h2:"Magic Card using HTML, CSS, JavaScript",tag:["html","css","js","card"]},
         {link:"/products/action-buttons/action-button",video:"/video2.webm",h2:"HTML, CSS, JavaScript Action Bar",tag:["html","css","js","action"]},    
         {link:"/products/navigation-bars/side-user-panel-floating",video:"/video1.webm",h2:"HTML, CSS, JavaScript User Panel",tag:["html","css","js","nav"]},

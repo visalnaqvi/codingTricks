@@ -1,0 +1,17 @@
+:root {
+    --Scount: 6;
+    --Sslide-count: 4;
+    --Sslide-duration: 0s;
+    --Sslide-step: (var(--Sslide-duration) / var(--Scount));
+    --Sdistance: calc(50vw + 100%);
+    --Scolor: hsl(0 0% 98%);
+    --Sbg: hsl(0 0% 10%);
+  }
+
+
+  
+@media(prefers-reduced-motion: no-preference) {
+    :root {
+      --Sslide-duration: 0.65s;
+    }
+  }

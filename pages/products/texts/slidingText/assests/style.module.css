@@ -1,0 +1,74 @@
+
+
+
+
+.wrap {
+  display: grid;
+  place-items: center;
+  overflow-x: hidden;
+  height: 400px;
+  background: var(--Sbg);
+}
+
+.wrap h1 {
+  font-size: clamp(2rem, 10vmin, 10rem);
+  font-style: italic;
+  text-transform: lowercase;
+  position: relative;
+  margin: 0;
+  color: var(--Scolor);
+}
+
+.wrap h1 span {
+  line-height: 0.85;
+}
+
+.wrap h1 span:not([aria-hidden]) {
+  color: transparent;
+  animation: fill 0s calc(calc(var(--Scount) * var(--Sslide-step)) + (var(--Sslide-duration) * var(--Sslide-count))) both;
+}
+
+@keyframes fill {
+  to {
+    color: var(--Scolor);
+  }
+}
+
+.wrap h1 span[aria-hidden] {
+  --delay: calc(var(--index) * var(--Sslide-step));
+  position: absolute;
+  display: inline-block;
+  animation:
+    slide var(--Sslide-duration) var(--delay) var(--Sslide-count) backwards ease-in,
+    slide-to calc(var(--Sslide-duration) * 0.5) calc(var(--delay) + (var(--Sslide-duration) * var(--Sslide-count))) forwards cubic-bezier(.87,1.4,.87,1.4);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*    */
+  --block: calc(100% / var(--Scount));
+  clip-path: inset(
+    calc(var(--index) * (var(--block)))
+    -50%
+    calc(100% - ((var(--index) * var(--block)) + var(--block)))
+    -50%);
+}
+
+.wrap h1 span:nth-of-type(even) {
+  --Sdistance: calc(-50vw - 100%);
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(-50%, -50%) translateX(calc(var(--Sdistance) * -1));
+  }
+  100% {
+    transform: translate(-50%, -50%) translateX(var(--Sdistance));
+  }
+}
+
+@keyframes slide-to {
+  0% {
+    transform: translate(-50%, -50%) translateX(calc(var(--Sdistance) * -1));
+  }
+}
+

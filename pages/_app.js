@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import '../styles/global-for-products/action-bar-3.css'
 import '../styles/global-for-products/styleMagicCard.css'
+import "../styles/slidingText.css"
 import SideNav from '../comps/sideNav'
 import NavBar from '../comps/nav'
 import Footer from '../comps/footer'
